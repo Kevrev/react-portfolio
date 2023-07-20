@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Kevrev/react-portfolio/static/css/main.7f196cfe.css",
-    "main.js": "/Kevrev/react-portfolio/static/js/main.c131152a.js",
-    "static/js/787.3745579d.chunk.js": "/Kevrev/react-portfolio/static/js/787.3745579d.chunk.js",
-    "static/media/logo.svg": "/Kevrev/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Kevrev/react-portfolio/index.html",
-    "main.7f196cfe.css.map": "/Kevrev/react-portfolio/static/css/main.7f196cfe.css.map",
-    "main.c131152a.js.map": "/Kevrev/react-portfolio/static/js/main.c131152a.js.map",
-    "787.3745579d.chunk.js.map": "/Kevrev/react-portfolio/static/js/787.3745579d.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.7f196cfe.css",
+    "main.js": "/react-portfolio/static/js/main.50031e31.js",
+    "static/js/787.3745579d.chunk.js": "/react-portfolio/static/js/787.3745579d.chunk.js",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.7f196cfe.css.map": "/react-portfolio/static/css/main.7f196cfe.css.map",
+    "main.50031e31.js.map": "/react-portfolio/static/js/main.50031e31.js.map",
+    "787.3745579d.chunk.js.map": "/react-portfolio/static/js/787.3745579d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f196cfe.css",
-    "static/js/main.c131152a.js"
+    "static/js/main.50031e31.js"
   ]
 }
