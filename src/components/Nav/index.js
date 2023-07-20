@@ -1,20 +1,27 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 function Nav() {
     return (
-        <nav>
-        <ul className="nav">
-            <li className="nav-item">
-                test
-            {/* <Link className="nav-link active" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-            <Link className="nav-link active" to="/about">About</Link> */}
-            </li>
-        </ul>
-        </nav>
+        <header className="flex-row">
+        <div className="titleLinks">
+          <h1 className="websiteTitle">Kevin Small</h1>
+          <div className="verticalDivider"></div>
+          <Link to="/upload">
+            <div className="linkText">Portfolio</div>
+          </Link>
+          <Link to="/personal">
+            <div className="linkText">Resume</div>
+          </Link>
+          <Link to="/discover">
+            <div className="linkText">About Me</div>
+          </Link>
+          <Link to="/ContactUs">
+            <div className="linkText">Contact</div>
+          </Link>
+        </div>
+      </header>
     );
 }
 
