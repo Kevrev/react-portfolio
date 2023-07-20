@@ -1,15 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <Router>
       <Nav />
-      {/* <Route path="/" exact component={Home} />
-      <Route path="/about" component={About} /> */}
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </Router>
   );
 }
