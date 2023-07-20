@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.portfolioTitle {
+.contentTitle {
     width: 60%;
     font-size: 2rem;
     margin: 2rem 0 0 0;
@@ -20,11 +20,7 @@
 
 @media screen and (max-width: 1500px) {
     .portfolioTitle {
-        width: 80%;
-        font-size: 2rem;
-        margin: 2rem 0 0 0;
-        color: #a3acb2;
-    
+        width: 80%; 
     }
 
     hr {
@@ -33,8 +29,6 @@
     
     .projectsContainer {
         width: 80%;
-        display: flex;
-        margin: 0 auto;
     }
 }
     

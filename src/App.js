@@ -5,13 +5,15 @@ import './App.css';
 import Nav from './components/Nav';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import About from './pages/About';
 
 function App() {
   return (
     <Router>
       <Nav />
       <Routes>
-      <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

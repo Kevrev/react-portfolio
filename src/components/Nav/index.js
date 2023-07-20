@@ -14,7 +14,7 @@ function Nav() {
           <Link to="/resume">
             <div className="linkText">Resume</div>
           </Link>
-          <Link to="/about">
+          <Link to="/">
             <div className="linkText">About Me</div>
           </Link>
           <Link to="/contact">

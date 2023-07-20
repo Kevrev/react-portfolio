@@ -8,7 +8,7 @@ function Portfolio() {
   return (
     <>
       <div className="contentContainer">
-        <h2 className="portfolioTitle">Portfolio</h2>
+        <h2 className="contentTitle">Portfolio</h2>
         <hr style={{ margin: "5px 0 20px 0" }} />
         <div className="projectsContainer">
           <Box sx={{ flexGrow: 1 }}>
