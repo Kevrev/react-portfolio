@@ -1,6 +1,7 @@
 .flex-row {
   justify-content: space-between;
   background-color: #293145;
+  width: 100%;
 }
 
 .websiteTitle {
