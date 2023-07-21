@@ -5,6 +5,7 @@ import './App.css';
 import Nav from './components/Nav';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 import About from './pages/About';
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
     <Router>
       <Nav />
       <Routes>
+        <Route path="*" />
         <Route path="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
