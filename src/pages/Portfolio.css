@@ -1,34 +1,37 @@
 .contentContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contentTitle {
-    width: 60%;
-    font-size: 2rem;
-    margin: 2rem 0 0 0;
-    color: #a3acb2;
-
+  width: 60%;
+  font-size: 2rem;
+  margin: 2rem 0 0 0;
+  color: #a3acb2;
 }
 
 .projectsContainer {
-    width: 60%;
-    display: flex;
-    margin: 0 auto;
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+}
+
+img {
+  width: 400px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1500px) {
-    .portfolioTitle {
-        width: 80%; 
-    }
+  .portfolioTitle {
+    width: 80%;
+  }
 
-    hr {
-        width: 80%;
-    }
-    
-    .projectsContainer {
-        width: 80%;
-    }
+  hr {
+    width: 80%;
+  }
+
+  .projectsContainer {
+    width: 80%;
+  }
 }
-    
