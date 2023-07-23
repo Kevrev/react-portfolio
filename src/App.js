@@ -9,7 +9,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       {/* Keep the nav bar on every page */}
       <Nav />
       <Routes>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
         {/* Always land on about page, even with 404 */}
-        <Route path="/" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<About />} />
       </Routes>
     </Router>

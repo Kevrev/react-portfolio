@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This application uses knowledge of react to create a portfolio website. The website contains a navbar, a footer, and four pages: Portfolio, About, Resume, and Contact. The About page contains a short bio and a picture of myself. The Portfolio page hosts some of my recent projects. The Resume page has a PDF file of my resume embedded and is also downloadable. The Contact page contains a form that can be filled out to send me an email.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+Users can access the deployed GitHub pages site and browse through the different pages. The navbar at the top hosts the links to each page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot](/src/assets/images/screenshotapp.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Link to the deployed website itself:
 
-### `npm test`
+https://kevrev.github.io/code-quiz/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+One can also view the index.html, script.js, and style.css files independently in the GitHub repository:
 
-### `npm run build`
+https://github.com/Kevrev/react-portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Bootstrap](https://getbootstrap.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[jQuery](https://jquery.com/)
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Credit to [ChatGPT](https://chat.openai.com/) for assistance in generating various questions that could be used for the quiz. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Credit to [Nijraj Gelani](https://stackoverflow.com/questions/56537727/how-setinterval-function-works) on StackOverflow as well as other commentors for their explanations of setInterval() and clearInterval() which helped in understanding how to create a timer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Credit to [this thread](https://stackoverflow.com/questions/32878481/how-to-use-local-storage-in-javascript-and-output-the-stored-elements-in-a-table) on StackOverflow for explaining how to use localStorage to create a leaderboard.
