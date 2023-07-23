@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cf3f0c2b.css",
-    "main.js": "/react-portfolio/static/js/main.2945486d.js",
+    "main.js": "/react-portfolio/static/js/main.bd9ffa6b.js",
     "static/js/787.3745579d.chunk.js": "/react-portfolio/static/js/787.3745579d.chunk.js",
     "static/media/project1thesite.png": "/react-portfolio/static/media/project1thesite.a400d0be4688cdd38f0f.png",
+    "static/media/screenshot.jpg": "/react-portfolio/static/media/screenshot.386f5d0f902747539d12.jpg",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.d77aea91c4d01bb5c349.png",
+    "static/media/project3.jpg": "/react-portfolio/static/media/project3.d35c761b2125ac0707ec.jpg",
     "static/media/wanderlist.png": "/react-portfolio/static/media/wanderlist.03559c2a154175836e67.png",
     "static/media/weatherDash.jpg": "/react-portfolio/static/media/weatherDash.5758f2a1463f0fb98803.jpg",
-    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/screenshot2.jpg": "/react-portfolio/static/media/screenshot2.811de7afd6b0a7cd8136.jpg",
+    "static/media/KevinSmallResume.pdf": "/react-portfolio/static/media/KevinSmallResume.7abe20a6419ca37b5b96.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.cf3f0c2b.css.map": "/react-portfolio/static/css/main.cf3f0c2b.css.map",
-    "main.2945486d.js.map": "/react-portfolio/static/js/main.2945486d.js.map",
+    "main.bd9ffa6b.js.map": "/react-portfolio/static/js/main.bd9ffa6b.js.map",
     "787.3745579d.chunk.js.map": "/react-portfolio/static/js/787.3745579d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf3f0c2b.css",
-    "static/js/main.2945486d.js"
+    "static/js/main.bd9ffa6b.js"
   ]
 }
