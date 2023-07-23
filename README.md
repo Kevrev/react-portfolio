@@ -12,7 +12,7 @@ Users can access the deployed GitHub pages site and browse through the different
 
 Link to the deployed website itself:
 
-https://kevrev.github.io/code-quiz/
+https://kevrev.github.io/react-portfolio/
 
 One can also view the index.html, script.js, and style.css files independently in the GitHub repository:
 
@@ -20,14 +20,12 @@ https://github.com/Kevrev/react-portfolio
 
 ## Technology Used
 
-[Bootstrap](https://getbootstrap.com/)
+[React](https://react.dev/)
 
-[jQuery](https://jquery.com/)
+[Material UI](https://mui.com/)
 
 ## Credits
 
-Credit to [ChatGPT](https://chat.openai.com/) for assistance in generating various questions that could be used for the quiz. 
+Credit to [Material UI](https://mui.com/material-ui/react-card/) for their components, but especially their react-card component which I used for the project cards on the Portfolio page.
 
-Credit to [Nijraj Gelani](https://stackoverflow.com/questions/56537727/how-setinterval-function-works) on StackOverflow as well as other commentors for their explanations of setInterval() and clearInterval() which helped in understanding how to create a timer.
-
-Credit to [this thread](https://stackoverflow.com/questions/32878481/how-to-use-local-storage-in-javascript-and-output-the-stored-elements-in-a-table) on StackOverflow for explaining how to use localStorage to create a leaderboard.
+Credit to [Drew Reese](https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages) on StackOverflow as well as other commentors for the explanations on the differences between HashRouter and BrowserRouter and how to use HashRouter to deploy a React app to GitHub pages.
