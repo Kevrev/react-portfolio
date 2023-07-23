@@ -1,49 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const [errorMessage] = useState('');
-    const { name, email, message } = formState;
-
-    function handleChange(e) {
-        if (!errorMessage) {
-        setFormState({...formState, [e.target.name]: e.target.value })
-        }
-    }
-
-    function handleSubmit(e) {
-        e.preventDefault();
-    }
-
-return (
-    <section className="container">
-        <h2 data-testid='h1tag' className="top-title">Contact Form</h2>
-        <hr></hr>
-        <form className="justify-content-center" id="contact-form">
-            <div className="mt-5" >
-                <label htmlFor="name">Name:</label>
-                <input className="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
-            </div>
-            <div className="mt-5" >
-                <label htmlFor="email">Email Address:</label>
-                <input className="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
-            </div>
-            <div className="mt-5" >
-                <label htmlFor="message">Message:</label>
-                <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
-            </div> 
-            {errorMessage && (
+  return (
+    <div className="contentContainer">
+      <h2 className="contentTitle">Contact Form</h2>
+      <hr style={{ margin: "5px 0 20px 0" }} />
+      <div className="aboutContainer">
+        <div className="aboutImageContainer"></div>
+        <div className="aboutTextContainer">
+          <form id="contact-form">
             <div>
-                <p className="error-text">{errorMessage}</p>
+              <div className="">
+                <label htmlFor="name">Name:</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  name="name"
+                />
+              </div>
+              <div className="">
+                <label htmlFor="email">Email Address:</label>
+                <input
+                  className="form-control"
+                  type="email"
+                  name="email"
+                />
+              </div>
+              <div className=""></div>
+              <label htmlFor="message">Message:</label>
+              <textarea className="form-control" name="message" />
             </div>
-            )}
 
-            <div className="mt-5 mb-5" >
-            <button data-testid='button' className="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
+            <div className="">
+              <button
+                data-testid="button"
+                className="btn btn-outline-dark "
+                type="submit"
+                onSubmit
+              >
+                Submit
+              </button>
             </div>
-        </form>
-    </section>
-    );
+          </form>
+        </div>
+      </div>
+    </div>
+  );
 }
-    
+
 export default Contact;
