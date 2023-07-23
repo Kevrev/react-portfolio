@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
+// Contact page layout
 function Contact() {
   return (
     <div className="contentContainer">

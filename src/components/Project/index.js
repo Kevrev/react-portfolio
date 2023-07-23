@@ -5,9 +5,11 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import "./index.css";
 
+// Material UI card layout as a template for project cards
 export default function ActionAreaCard(props) {
   const { title, description, imageUrl, altText, repoUrl, deployUrl } = props;
 
+  // Customizing the card layout and styling to suit the needs of the portfolio
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia

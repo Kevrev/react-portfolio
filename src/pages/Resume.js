@@ -1,6 +1,7 @@
 import React from "react";
 import resume from "../assets/docs/KevinSmallResume.pdf";
 
+// Resume page layout
 function Resume() {
   return (
     <>

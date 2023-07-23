@@ -3,6 +3,8 @@ import ActionAreaCard from "../components/Project";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import "./Portfolio.css";
+
+// Image assets
 import TheSite from "../assets/images/project1thesite.png";
 import WanderList from "../assets/images/wanderlist.png";
 import WeatherDashboard from "../assets/images/weatherDash.jpg";
@@ -10,6 +12,8 @@ import Project3 from "../assets/images/project3.jpg"
 import Refactor from "../assets/images/screenshot.jpg"
 import Quiz from "../assets/images/screenshot2.jpg"
 
+
+// Portfolio page layout
 function Portfolio() {
   return (
     <>

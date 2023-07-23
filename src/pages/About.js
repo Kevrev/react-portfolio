@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import avatarImage from "../assets/images/avatar.png";
 
+// About page layout
 function About() {
   return (
     <>
