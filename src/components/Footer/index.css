@@ -1,0 +1,16 @@
+.footer {
+    background-color: #293145;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
