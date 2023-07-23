@@ -9,7 +9,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router>
+    <>
       {/* Keep the nav bar on every page */}
       <Nav />
       <Routes>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/" element={<About />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
