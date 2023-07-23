@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import Contact from './pages/Contact';
@@ -9,7 +9,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <Router>
       {/* Keep the nav bar on every page */}
       <Nav />
       <Routes>
